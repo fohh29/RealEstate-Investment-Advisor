@@ -1,0 +1,17 @@
+# Ignore Python cache and environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Ignore large data files
+*.csv
+data/
+
+# Ignore local experiment tracking
+mlflow.db
+mlruns/
+
+# Ignore system files
+.DS_Store
